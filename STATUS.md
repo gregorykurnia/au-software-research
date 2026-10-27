@@ -1,7 +1,7 @@
 # STATUS
 
-**Current step:** Step 1 done, waiting on **Gate 1** (owner confirms the numbers in `research/00-bar.md`).
-**Next command:** `confirm bar` (or tell me what to change), then `next` → 2.1 Segments and sources.
+**Current step:** Gate 1 passed (2026-10-27). Next: 2.1 Segments and sources.
+**Next command:** `next`
 
 ## Bar (from 00-bar.md)
 A$2,500/month revenue ex-GST · 25–45 customers at A$50–100 · ≤5% of reachable buyers · income within 12 months (by ~2027-10).
@@ -23,3 +23,4 @@ Not set yet (Step 8.4). Defaults: ≥100 targeted visitors per finalist; pass at
 | 2026-10-27 | Revenue target A$2,500/month ex-GST | Covers A$1,905 take-home + costs at every price point | 00-bar §1.2–1.3 |
 | 2026-10-27 | Time limit 12 months | Owner's answer | — |
 | 2026-10-27 | No seeds from first attempt | Owner chose to start clean from buyer complaints | — |
+| 2026-10-27 | Gate 1 passed | Owner confirmed the bar in 00-bar.md | — |
