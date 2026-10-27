@@ -14,8 +14,7 @@ still active.
 | **D** | Australian e-commerce sellers | Shopify and marketplace sellers | online by definition; used to buying apps; app stores give a remote seller distribution | **Medium** | global competitors; the AU angle must be specific (AusPost, GST, Xero sync) |
 | E | *Reserve:* hospitality and retail employers | café, restaurant and shop owners | award wages, rosters, Payday Super (from 1 Jul 2026) | Medium; app reviews are mostly from staff, not owners | swap in if a segment above comes up empty |
 
-**Recommendation:** collect A, B and D automatically. Keep C only if you can spend about an hour in
-NDIS-provider Facebook groups; on automated sources alone it will probably fail Gate 2.
+**Approved 2026-10-27: A, B and D.** C dropped for now (thin automated data); E stays the reserve.
 
 ## Sources that load (2.2 subagents use these)
 
@@ -43,22 +42,25 @@ NDIS-provider Facebook groups; on automated sources alone it will probably fail 
   accounting apps, picked in 2.2.
 - **E (reserve):** Xero App Store: Deputy (148), Employment Hero (20). Apple AU: Deputy (477070330, 8,247).
 
-## Blocked: for you to check by hand
+## Blocked from the server: Claude in Chrome on your Mac, or by hand
 
-All of these returned HTTP 403 or refused the fetch tool on 2026-10-27, so Claude won't fetch them.
-In priority order, about 2–3 hours in total:
+All of these returned HTTP 403 or refused the fetch tool on 2026-10-27. A plain headless browser on the
+server was blocked too (bot verification on ProductReview, Capterra, Whirlpool, myob.lithium.com, G2 and
+even the ATO). Rule since 2026-10-27 (`CLAUDE.md`): public pages go through **Claude in Chrome on your Mac**,
+slowly; Facebook stays **by hand**.
 
-| # | Source | Segments | What to copy | Time |
+| # | Source | Segments | Route | What to collect |
 |---|---|---|---|---|
-| 1 | **Facebook groups** [YOU] | all | Join 1–2 per segment: Australian, 1,000+ members, posts in the last week. Read only. Search terms: A "bookkeepers Australia", "BAS agents"; B "tradies business Australia" (one known: Lifestyle Tradie's "Kick-Ass Tradies"); C "NDIS providers Australia", "allied health practice owners"; D "Shopify Australia", "Australian online sellers". Copy posts that complain, ask for a tool or describe a workaround | 60–90 min |
-| 2 | **Reddit** | A, C, D | Reddit blocks both fetch and search for Claude. Search r/AusFinance, r/smallbusiness (AU posts), r/bookkeeping, r/NDIS, r/shopify for "Xero", "MYOB", "BAS", "invoice", "NDIS claim", "shipping" | 30–45 min |
-| 3 | **MYOB Idea Exchange** | A | Top 30 ideas by votes: title, votes, status ("Not Likely" = declined). The community moved to `myob.lithium.com`; the old exchange went read-only for a new one (date unverified) | 15 min |
-| 4 | **ProductReview.com.au** | A, B | 1–3★ reviews of Xero, MYOB and any job-management app listed | 15–20 min |
-| 5 | Whirlpool (Business & Finance) | A | optional | 15 min |
-| — | Capterra AU, GetApp AU, Software Advice AU, G2, Shopify Community | — | Skip unless the above come up thin: US-skewed or covered by the app stores | — |
+| 1 | **Facebook groups** | A, B, D | by hand, 45–60 min | Join 1–2 per segment: Australian, 1,000+ members, posts in the last week. Read only. Search terms: A "bookkeepers Australia", "BAS agents"; B "tradies business Australia" (one known: Lifestyle Tradie's "Kick-Ass Tradies"); D "Shopify Australia", "Australian online sellers". Copy posts that complain, ask for a tool or describe a workaround |
+| 2 | **Reddit** | A, D | Chrome | r/AusFinance, r/smallbusiness (AU posts), r/bookkeeping, r/shopify: "Xero", "MYOB", "BAS", "invoice", "shipping" |
+| 3 | **MYOB Idea Exchange** | A | Chrome | Top 30 ideas by votes: title, votes, status ("Not Likely" = declined). The community moved to `myob.lithium.com` |
+| 4 | **ProductReview.com.au** | A, B | Chrome | 1–3★ reviews of Xero, MYOB and any listed job-management app |
+| 5 | Whirlpool (Business & Finance) | A | Chrome, optional | |
+| — | Capterra AU, G2 | A, B, D | Chrome, only if the above come up thin | US-skewed |
 
-**How to hand it over:** paste each post's text, link and date into `research/manual/<source>.md` (one file per
-source, any format). Claude cuts excerpts to under 25 words and strips names and contact details during 2.2.
+**How to hand it over:** Chrome sessions and your Facebook copies both go into `research/manual/<source>.md`
+(text, link, date; any format), pushed to GitHub. Claude cuts excerpts to under 25 words and strips names
+and contact details when merging them into the ledger in 2.2.
 
 ## Notes for 2.2
 
