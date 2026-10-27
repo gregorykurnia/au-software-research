@@ -58,6 +58,14 @@ slowly; Facebook stays **by hand**.
 | 5 | Whirlpool (Business & Finance) | A | Chrome, optional | |
 | — | Capterra AU, G2 | A, B, D | Chrome, only if the above come up thin | US-skewed |
 
+**Chrome results, 2026-10-27** (files in `research/manual/`):
+- MYOB Idea Exchange: ✓ now on `community.myob.com`. Business top 30 with comments, plus AccountRight top 30 as a
+  list (74 excerpts).
+- ProductReview: ✓ Xero, MYOB, hipages (trade side), Shopify and Sendle (seller side), 119 excerpts. ServiceM8,
+  Tradify, Fergus, simPRO and AroFlo are not listed there.
+- Whirlpool: ✓ but thin. No business forum; 4 threads read (13 excerpts).
+- Reddit: ✗ the Chrome extension refuses reddit.com outright. Do it by hand or skip it (see `manual/reddit.md`).
+
 **How to hand it over:** Chrome sessions and your Facebook copies both go into `research/manual/<source>.md`
 (text, link, date; any format), pushed to GitHub. Claude cuts excerpts to under 25 words and strips names
 and contact details when merging them into the ledger in 2.2.

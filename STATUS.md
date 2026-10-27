@@ -1,6 +1,6 @@
 # STATUS
 
-**Current step:** 2.1 approved (2026-10-27): segments A, B, D. Next: 2.2 collection (automated sources on the server; Chrome and Facebook sources by the owner, see `01-sources.md`).
+**Current step:** 2.2 collection in progress. Chrome sources done 2026-10-27 (`research/manual/`: MYOB Idea Exchange, ProductReview, Whirlpool; Reddit blocked by the extension). Still to do: automated sources on the server; Facebook by the owner; Reddit by hand or skip (owner's choice).
 **Next command:** `next`
 
 ## Bar (from 00-bar.md)
@@ -27,3 +27,4 @@ Not set yet (Step 8.4). Defaults: ≥100 targeted visitors per finalist; pass at
 | 2026-10-27 | Proposed segments A Xero/MYOB, B trades, C NDIS/allied health, D e-commerce; E hospitality as reserve | Admin-heavy, online, reachable from Indonesia; C has thin automated data | 01-sources |
 | 2026-10-27 | Segments A, B, D approved; C dropped, E reserve | Owner's choice; C had thin automated data | 01-sources |
 | 2026-10-27 | Bot-blocked public sites via Claude in Chrome on the owner's Mac; Facebook by hand | Owner allowed browser for public sites; a plain headless browser on the server was blocked by all of them | 01-sources |
+| 2026-10-27 | Chrome collection done: MYOB Idea Exchange 74, ProductReview 119, Whirlpool 13 excerpts; Reddit not collected | The extension refuses reddit.com; no workaround tried. Sendle and Shopify added on ProductReview to cover segment D | manual/*.md |
