@@ -1,7 +1,7 @@
 # STATUS
 
-**Current step:** 3.1 done (2026-10-28): `research/03-money.md` has money signals for the 12 Gate 2 passes. Exact-job B1 money: inventory-beside-xero, getting-paid, records-after-exit; broad: job-costing, dispatch-workflow; adjacent only: payroll-in-ledger, entry-review, bill-capture, supplier-payment-runs (tiny); none: invoice-layout, payday-super; barely: shipping-charge-errors. Gate 3 waits for 3.2 (search against) and 3.3 (price anchor).
-**Next command:** `next` (runs 3.2)
+**Current step:** 3.2 done (2026-10-28): `research/03-money.md` §3.2 searched against all 12. Nine are solved or closing (free/bundled features, platform-only fixes, or one-off). Two keep a durable named group backed by B1: **inventory-beside-xero** and **job-costing**. entry-review is borderline (2 people). shipping-charge-errors now fails Gate 2 (4 people). Gate 3 is judged after 3.3 (price anchor).
+**Next command:** `next` (runs 3.3)
 
 ## Bar (from 00-bar.md)
 A$2,500/month revenue ex-GST · 25–45 customers at A$50–100 · ≤5% of reachable buyers · income within 12 months (by ~2027-10).
@@ -10,18 +10,18 @@ A$2,500/month revenue ex-GST · 25–45 customers at A$50–100 · ≤5% of reac
 
 | Slug | Problem | G2 | G3 | G4 | G5 | G6 | G7 | G8 | Status |
 |---|---|---|---|---|---|---|---|---|---|
-| inventory-beside-xero | Stock control Xero lacks; Cin7 Core keeps rising | pass | | | | | | | in |
-| shipping-charge-errors | Wrong shipping charges go unchecked for months | pass | | | | | | | in |
-| payroll-in-ledger | Pay-run setup and manual payslip fixes in Xero/MYOB | pass | | | | | | | in |
-| getting-paid | Statements, ageing, interest and receipts sent by hand | pass | | | | | | | in |
-| job-costing | Job profit and progress claims kept in spreadsheets | pass | | | | | | | in |
-| records-after-exit | Keeping 5–7 years of books after selling or closing | pass | | | | | | | in |
-| entry-review | Finding other people's back-dated or uncoded entries | pass | | | | | | | in |
-| invoice-layout | Invoices not in the form the customer needs | pass | | | | | | | in |
-| payday-super | Super paid on MYOB's date, no receipts, double-pay risk | pass | | | | | | | in |
-| dispatch-workflow | Re-keying orders the shipping app can't handle | pass | | | | | | | in |
-| supplier-payment-runs | No holds, credits or term-based due dates in bill runs | pass | | | | | | | in |
-| bill-capture | Retyping supplier bills the capture tool misread | pass | | | | | | | in |
+| inventory-beside-xero | Stock control Xero lacks; Cin7 Core keeps rising | pass | | | | | | | in (3.2: likely pass) |
+| shipping-charge-errors | Wrong shipping charges go unchecked for months | fail (revised 3.2: 4 people, two jobs) | | | | | | | out; SmartCompany quotes could reopen the carrier-bill half |
+| payroll-in-ledger | Pay-run setup and manual payslip fixes in Xero/MYOB | pass | | | | | | | in (3.2: likely fail) |
+| getting-paid | Statements, ageing, interest and receipts sent by hand | pass | | | | | | | in (3.2: likely fail) |
+| job-costing | Job profit and progress claims kept in spreadsheets | pass | | | | | | | in (3.2: likely pass) |
+| records-after-exit | Keeping 5–7 years of books after selling or closing | pass | | | | | | | in (3.2: likely fail) |
+| entry-review | Finding other people's back-dated or uncoded entries | pass | | | | | | | in (3.2: borderline) |
+| invoice-layout | Invoices not in the form the customer needs | pass | | | | | | | in (3.2: likely fail) |
+| payday-super | Super paid on MYOB's date, no receipts, double-pay risk | pass | | | | | | | in (3.2: likely fail) |
+| dispatch-workflow | Re-keying orders the shipping app can't handle | pass | | | | | | | in (3.2: likely fail) |
+| supplier-payment-runs | No holds, credits or term-based due dates in bill runs | pass | | | | | | | in (3.2: likely fail) |
+| bill-capture | Retyping supplier bills the capture tool misread | pass | | | | | | | in (3.2: likely fail) |
 | ndis-service-dates | Service dates on NDIS invoices | fail (80% one thread) | | | | | | | out; Facebook could rescue |
 | payroll-only-plan | Payroll-only Xero users priced out | fail (4 people, 1 site) | | | | | | | out; Facebook could rescue |
 | multi-entity-repeat | Same work repeated in each entity's file | fail (4 people) | | | | | | | out |
@@ -61,3 +61,7 @@ Not set yet (Step 8.4). Defaults: ≥100 targeted visitors per finalist; pass at
 | 2026-10-28 | 3.1: four parallel research agents, one per three candidates; four claims spot-checked on the Xero App Store | Web-heavy step; full tables kept in `collect/money-3.1-group-*.md` | 03-money.md |
 | 2026-10-28 | App-store review counts count as B1, graded exact / adjacent / none for this job | Playbook: reviews from paying users of a tool for this job are B1; spend on the platform or a neighbouring tool doesn't prove this job | M-01–M-17 |
 | 2026-10-28 | shipping-charge-errors flagged: Sendle closed 2026-01-11, so PR-D04 is stale and only 4 people remain | Recency check; 3.2 confirms or drops it | PR-D04, SH-001, SH-011, SH-034, TP-015 |
+| 2026-10-28 | 3.2: four parallel agents searched against all 12; four claims spot-checked (Statey, Shopify AusPost labels, Xero ABA export, MyDataXport) | Same groups as 3.1; full tables in `collect/against-3.2-group-*.md` | 03-money.md §3.2 |
+| 2026-10-28 | shipping-charge-errors: Gate 2 revised to fail, out | Sendle closed (PR-D04 stale) and SH-011 = TP-018, leaving 4 people over two jobs; below the bar of 5 | SH-001, SH-011, SH-034, TP-015 |
+| 2026-10-28 | Gate 3 outlook: likely pass inventory-beside-xero, job-costing; borderline entry-review; rest likely fail | Rest solved by free/bundled features or closing on Xero's 2026 roadmap, platform-only fixes, no B1, or one-off. Gate itself waits for 3.3 | 03-money.md §3.2 |
+| 2026-10-28 | Lawyer flags: payday-super (moving super money needs an AFSL), payroll-in-ledger (a read-only checker probably avoids ATO software rules, low–medium confidence) | Playbook: regulated-service check | collect/against-3.2-group-c.md |

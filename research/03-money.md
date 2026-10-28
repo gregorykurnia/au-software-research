@@ -5,8 +5,8 @@
 Collected 2026-10-28 for the 12 Gate 2 passes. Four research agents ran in parallel, one per group of three
 candidates. Their full tables, with every link, are in `collect/money-3.1-group-{a,b,c,d}.md`. Four claims
 were spot-checked against the Xero App Store and held: ControlC's archive quote, Paidnice's 83 reviews,
-Fergus's 79 reviews and the Fergus buyer's quote. 3.2 (search against) and 3.3 (price anchor) come next;
-**Gate 3 is not judged yet.**
+Fergus's 79 reviews and the Fergus buyer's quote. 3.2 (search against) is below; 3.3 (price anchor) comes
+next. **Gate 3 is not judged yet.**
 
 **How to read it.** A signal is **B1** when a buyer states what they pay, lose or spend in hours, or when
 paying users review a tool built for this job. Review counts from the Xero App Store and Shopify App Store
@@ -101,3 +101,65 @@ the agents recorded them.
   named group those tools serve badly, backed by ids.
 - Where tools are missing (invoice-layout, payday-super), nobody pays: Xero offers free workarounds, or
   only MYOB can fix it.
+
+## 3.2 Search against it
+
+Done 2026-10-28. Four research agents ran in parallel, in the same groups as 3.1, and each checked five
+things: free templates, features already built into Xero, MYOB or Shopify, government tools, cheap apps and
+platform roadmaps. Full tables are in `collect/against-3.2-group-{a,b,c,d}.md`, about 150 sourced rows in
+all. Four claims were spot-checked and held:
+- Statey: Xero statements with ageing, A$15/35/70 a month ex-GST, 19 reviews.
+- Shopify: native AusPost labels in the admin since August 2025.
+- Xero AU: exports an ABA file from a batch payment (a forum reply, medium confidence).
+- MyDataXport: on MYOB's app marketplace with a "one-time backup for closure".
+
+Almost everything here is **S** (help pages, roadmaps, pricing). It shows what exists. It doesn't prove pain.
+
+**Bottom line:** search against them, 9 of the 12 are solved or closing:
+- Free or bundled features fill them, or will within about a year: getting-paid, bill-capture,
+  dispatch-workflow, supplier-payment-runs.
+- Only the platform itself can fix what's left: payroll-in-ledger, payday-super, invoice-layout on MYOB.
+- The owner's job happens once: records-after-exit.
+- shipping-charge-errors falls to 4 people and now **fails Gate 2**.
+
+Two keep a named group served badly, backed by B1 and durable: **inventory-beside-xero** and
+**job-costing**. Both have paid rivals already selling to that group, which is Step 5's problem, not
+Gate 3's. **entry-review** keeps a group on MYOB, but it is thin (2 people).
+
+| # | Slug | Free or bundled solves it? | Strongest against (S unless marked) | Group served badly (ids) | Lasts 2 years? | Gate 3 outlook |
+|---|---|---|---|---|---|---|
+| 1 | inventory-beside-xero | Partly | Zoho Inventory: free tier with kits and a Xero integration (AU edition); paid about A$43–54/mo incl GST (search only). Katana free up to 30 SKUs | Xero sellers missing one or two basics (XI-037, XI-042, XI-044, PR-X12, PR-X38); Cin7 Core leavers (XA-020, 022, 024, 025). Price gap between Zoho and inFlow US$186+, TidyStock NZ$127+ | Yes: no Xero kits, price levels or landed cost dated for AU; Xero Inventory Plus is US-only; XI-043 is categories, not variants | **Likely pass** |
+| 2 | getting-paid | Mostly | Xero's scheduled statements went to testers 2026-10-27; free reminders, pay-now links and days-to-pay in Xero; Statey A$15/mo already sells statements | MYOB users wanting emailed receipts (MI-29, MI-30; 20 votes) | No: the 1,176-vote ask ships within ~12 months | Likely fail |
+| 3 | records-after-exit | Partly, well enough | MYOB read-only A$2.50/mo incl GST (invite-only, ends 2026-12-31); Xero Ledger A$7/mo via an accountant; a Xero file can be reactivated for 7 years; free exports; MyDataXport on MYOB for closures | MYOB Business owners leaving (MI-62–64), but MI-64 refuses to pay a third party | Yes (5-year rule) | Likely fail; fails hard limit 3 anyway (one-off) |
+| 4 | job-costing | Mostly for trades; partly for Xero-only firms | ServiceM8 (351 reviews), Tradify (187), Fergus (79) sell costing at A$30–77/user; Xero Projects has budgets and profit, but on Ultimate only | Xero Projects users who outgrew it: PO costs to projects (XI-035, 620 votes), cost-rate history (XI-034), repeating invoices (XI-033, B1 "a couple of days work per month"), import (XI-036). WorkGuru, Projectworks and WorkflowMax by BlueRock already target them | Yes: progress payments (XI-030) still In development; deposits live June 2026, Stripe only | **Likely pass** (group backed by B1 XI-033) |
+| 5 | dispatch-workflow | Mostly | 4 of 6 named gaps filled by Shopify or a rival app; native AusPost labels in Shopify since Aug 2025 | MYOB Business packing slips (MI-55, MI-56, one thread); Starshipit two couriers (SH-010, one person) | No: gaps close yearly | Likely fail |
+| 6 | payroll-in-ledger | Partly | XI-010 public holidays: Xero "first release planned for later this year" (2026-09-07); free Fair Work tool and FWC pay-rates API; Deputy, Tanda, RosterElf check awards at timesheet | None an outside tool can serve: MI-39, MI-40, MI-51, MI-52 are settings inside MYOB | Residue only | Likely fail |
+| 7 | entry-review | Partly | MYOB's free Journal Security Audit filters by entry date (back-dating); Xero lock dates; XBert flags lock-date moves and attachments over $75 | MYOB staff fixing missing job codes (MI-42 B1 "many hours", MI-41); Xero non-practice users hunting back-dated posts (XI-015, one id) | Yes: Xero declined compulsory tracking (2025-07-15) and an audit trail report (2025-12-08) | Borderline: B1 and a group exist, but 2 people |
+| 8 | invoice-layout | Xero: mostly; MYOB Business: no | Xero .docx themes and branding themes; multiple addresses In development; Peppol free on both. A third party can't change MYOB's invoice, only send its own PDF | MYOB Business users whose customers set the form (MI-17, 18, 31, 32, 33, 36, 37, 66, 67) | MYOB unknown; Xero gap closing | Likely fail: no B1 for the job |
+| 9 | payday-super | Partly | Xero: multiple authorisers done (Aug 2026), advisor notifications In development; Employment Hero HeroClear already chases approvers; clearing free or <A$0.30 | MYOB employers (MI-01–06, MI-60, MI-61); only MYOB can fix Pay Super | First-year bumps of a July 2026 rule | Likely fail: no B1; moving super money needs an AFSL (lawyer flag) |
+| 10 | shipping-charge-errors | Partly | AusPost flags each adjustment free ("Entered As" vs "We Detected") with a free dispute route; no AusPost/StarTrack invoice API found | SH-034 only; SmartCompany 2026-03-26 quotes sellers but is S | Yes | **Gate 2 fail (revised):** 4 people, two jobs |
+| 11 | supplier-payment-runs | Mostly | Xero AU exports ABA files, sets due dates per supplier, pays bills in-app (Airwallex A$0.35); Batchly (Apr 2026, 9 reviews) nets credits in runs | Xero bookkeepers needing a hold flag (XI-004, XI-005; free Chrome extensions only); MYOB Business supplier terms (MI-14–16; AccountRight has it) | Shrinking | Likely fail |
+| 12 | bill-capture | Partly, closing fast | Xero AI capture in AU beta since 2026-07-02 with line items, GST next; MYOB AI capture free on Lite/Pro; Hubdoc still in Xero plans | Xero users wanting free line splits (PR-X08); email-body invoices (PR-X04), already handled by cheap apps | No | Likely fail (also no B1) |
+
+"Gate 3 outlook" is a reading, not the gate. Gate 3 is judged after 3.3.
+
+### Corrections and flags from 3.2
+
+- **shipping-charge-errors, Gate 2 revised to fail.** Sendle stopped bookings on 2026-01-11, so PR-D04 is
+  gone, and SH-011 and TP-018 are one person. That leaves 4 people (SH-001, SH-011, SH-034, TP-015), split
+  over two jobs: checkout rates and carrier bills. The SmartCompany article (2026-03-26) quotes sellers on
+  AusPost adjustments; adding those quotes as B2 could reopen the carrier-bill half (owner's call).
+- **Card fixes:**
+  - XI-012 is about super for under-18s working 30+ hours, not junior pay rates.
+  - XI-043 ("In development") is product categories, not variants.
+  - Xero AU does make ABA batch files, which settles the 3.1 conflict.
+- **3.1 missed:** MyDataXport (MYOB archive), Statey (Xero statements, A$15), Batchly (Xero credits in
+  payment runs) and Zoho Inventory's free tier.
+- **Lawyer flags:**
+  - payday-super: moving super money is a licensed service (ASIC treats clearing houses as non-cash
+    payment facilities).
+  - payroll-in-ledger: a read-only checker that never lodges STP probably avoids ATO software rules
+    (low–medium confidence).
+- **Rival platforms are shipping fast.** Xero shipped or tested bill payments, AI capture, statements,
+  deposits and super authorisers in 2026. A candidate that sits just next to Xero's roadmap fades fast.
+  The two durable ones (inventory, Projects) are areas Xero has said nothing dated about.
