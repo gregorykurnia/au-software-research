@@ -5,8 +5,8 @@
 Collected 2026-10-28 for the 12 Gate 2 passes. Four research agents ran in parallel, one per group of three
 candidates. Their full tables, with every link, are in `collect/money-3.1-group-{a,b,c,d}.md`. Four claims
 were spot-checked against the Xero App Store and held: ControlC's archive quote, Paidnice's 83 reviews,
-Fergus's 79 reviews and the Fergus buyer's quote. 3.2 (search against) is below; 3.3 (price anchor) comes
-next. **Gate 3 is not judged yet.**
+Fergus's 79 reviews and the Fergus buyer's quote. 3.2 (search against) and 3.3 (price anchor and Gate 3)
+are below.
 
 **How to read it.** A signal is **B1** when a buyer states what they pay, lose or spend in hours, or when
 paying users review a tool built for this job. Review counts from the Xero App Store and Shopify App Store
@@ -163,3 +163,90 @@ Gate 3's. **entry-review** keeps a group on MYOB, but it is thin (2 people).
 - **Rival platforms are shipping fast.** Xero shipped or tested bill payments, AI capture, statements,
   deposits and super authorisers in 2026. A candidate that sits just next to Xero's roadmap fades fast.
   The two durable ones (inventory, Projects) are areas Xero has said nothing dated about.
+
+## 3.3 Price anchor and Gate 3
+
+Done 2026-10-28. Most prices come from 3.1–3.2. This step adds buyer-stated prices from the ledger and
+opens six pricing pages for the three candidates still in play. AUD ex-GST unless marked. US$ is
+converted at about A$1.5 (low confidence), as in 3.1.
+
+**Bottom line:** **2 pass Gate 3: inventory-beside-xero and job-costing.** entry-review fails: after
+narrowing, its group rests on one idea thread. The other eight fail because free or bundled tools solve
+the job, only the platform can fix it, or there is no B1. Both passes anchor at about **A$50–150 a
+month per business**. That fits the bar (25–45 customers at A$50–100). Gate 4 wants 3–5 survivors, so
+two is short.
+
+### New prices opened (S)
+
+| Tool | Price as shown | For which candidate | Link | Conf. |
+|---|---|---|---|---|
+| Cin7 Core | US$349 Standard (5 users, 2 integrations), US$599 Pro, US$1,199 Advanced a month. "Prices are in USD", for new customers; extra integrations unpriced | inventory | https://www.cin7.com/pricing/ | high |
+| Zoho Inventory | Standard about A$53.90 a month incl. GST, or A$43 billed annually (500 orders, 2 users). Review site, verified 2026-03-18; no official AU page found | inventory | https://softwarehq.pages.dev/review/zoho-inventory | medium |
+| WorkflowMax by BlueRock | Per user a month (monthly billing): Essentials A$12.22 (3–25 users), Pro A$22 (from 5), Advanced A$37.78 (from 10). Costs on jobs and Xero sync on all plans; progress invoicing (by % of quote or phase) on Pro and up | job-costing | https://workflowmax.com/pricing | high |
+| WorkGuru | **Changed:** A$350 a month for 10 users, then A$35 a user; inventory +A$300. 3.2's "A$30/user, min 5" is out of date | job-costing | https://workguru.io/pricing | high |
+| CostTracker (Xero app) | POs committed against project budgets. US$159 (1–5 users), A$275 (6–10), billed annually; 1 review | job-costing | https://apps.xero.com/au/app/costtracker | high |
+| XBert | Fee per user plus per client file by activity tier; amounts not public. Capterra "from A$99 a month"; an aggregator shows $8.40–118.80 a client plus $34.80 a user, currency not stated | entry-review | https://support.xbert.io/en/articles/5635656-understanding-xbert-pricing | low |
+
+### Price anchors
+
+| # | Slug | What buyers pay today for this job (B1 first) | Nearest priced alternative (S) | Anchor |
+|---|---|---|---|---|
+| 1 | inventory-beside-xero | Cin7/DEAR users: US$300 a month plus integrations (XA-023); US$5,634 a year proposed, about US$470 a month (XA-024); $4,400 → $4,972 a year, about $370–415 a month (XA-025, currency not stated); US$50 a month in 2015, tripled in 2024 (XA-026). Katana $1,188 → $2,148 a year, about $99 → $179 a month (M-01) | Zoho free tier, then about A$43–54 incl. GST; TidyStock from NZ$127 (about A$115); inFlow US$186 (about A$280); Cin7 Core US$349 (about A$525) | **Xero-only sellers missing basics: A$50–150.** Cin7 leavers paid about A$450–700, but a Cin7 replacement isn't an 8-week v1 (hard limit 4, Step 4) |
+| 2 | job-costing | Fergus about $70 a user a month, "saves me 10 hours a month" (M-09). Time: "a couple of days work per month" (XI-033), about A$640–960 a month at A$40–60 an hour (estimate, low confidence) | Xero Projects needs Ultimate: +A$36 a month incl. GST over Comprehensive. WorkflowMax Pro A$22 a user (min 5, A$110); CostTracker A$275 (6–10 users); WorkGuru A$350 (10 users); ServiceM8 A$29–149 incl. GST | **A$50–150 a month per firm.** WorkflowMax sets a low ceiling: progress invoicing for 5 users at A$110 |
+| 3 | entry-review | Time only: "many hours" (MI-42), "hours this morning" (XI-015). Nobody is seen paying for this exact check | XBert from about A$99 a month for practices (low confidence); Dext Data Health +A$10 a client | No anchor for the narrow job |
+| 4 | getting-paid | Paidnice US$69–99 (XI-001 calls it "min $99pm") | Statey A$15–70; CreditorWatch Collect about A$89 (search only); Chaser from A$399 | A$15–150 |
+| 5 | records-after-exit | A$2.50 a month incl. GST to keep MYOB (PR-M40); ControlC US$8–25 (M-07, M-08) | Xero Ledger A$7 via a partner; Numerint one-off £10–300 | A$2.50–25 a month |
+| 6 | payroll-in-ledger | Pays the accountant for setup, amount not stated (PR-X34) | Payroller A$0–5.50 per employee; award tools A$8+ per person; bureau A$5–20 per employee per run | A$3–8 per employee a month |
+| 7 | invoice-layout | No B1 | Freelance .docx template US$35–150 one-off; AccountRight step-up about A$95 a month | One-off, under A$150 |
+| 8 | payday-super | No spend; time only (PR-M25) | Clearing A$0–0.30 per employee per batch | About A$0 |
+| 9 | dispatch-workflow | SellerDash and Starshipit users (M-10, M-11); amounts not stated | ReadyToShip US$0.05 a label; SellerDash US$9.99; Starshipit US$35–140 | US$10–140 |
+| 10 | supplier-payment-runs | BatchPay A$20 a month (M-15, M-16) | Batchly about A$25 (low); Xero bill payments A$0.35 each | A$20–35 |
+| 11 | bill-capture | Dext "the cost of 1 hrs bookkeeping/month" (M-14) | Hubdoc and Xero AI capture free; Dext A$33.58 (+A$28.50 line items) | A$0–60 |
+
+### Gate 3
+
+Pass needs at least one B1 money signal, and nothing free or bundled already solving it well; if
+something does, a named group it serves badly, backed by ids.
+
+| # | Slug | B1? | Free or bundled solves it well? | Gate 3 | One line of evidence |
+|---|---|---|---|---|---|
+| 1 | inventory-beside-xero | Yes, exact | No | **pass** | Xero has no kits, price levels or landed cost and no dated AU plan (3.2); sellers use a second app or duplicate items (XI-037, XI-042, XI-044); Cin7 users pay US$300–470 a month and complain of rises (XA-023–026) |
+| 2 | job-costing | Yes | No, for Xero Projects users | **pass** | Projects can't take PO costs (XI-035, 620 votes) and repeating invoices take "a couple of days work per month" (XI-033, B1). The fixes are paid apps (WorkflowMax, CostTracker), not free ones |
+| 3 | entry-review | Yes (time) | Partly | **fail** | MYOB's free audit report handles back-dating. What's left is two small groups on one thread each: MYOB job codes (MI-41, MI-42) and Xero change history (XI-015, M-19, M-20). Narrowed to either, it fails Gate 2's one-page rule |
+| 4 | getting-paid | Yes | Yes | fail | Free Xero reminders, Statey at A$15 and Xero statements in testing (2026-10-27). The MYOB receipts group (MI-29, MI-30) has no B1 |
+| 5 | records-after-exit | Yes, small | Yes, well enough | fail | MYOB A$2.50, Xero Ledger A$7, free exports; MI-64 won't pay a third party. Also a one-off (hard limit 3) |
+| 6 | payroll-in-ledger | Adjacent only | Partly | fail | Xero's public-holiday fix is due this year; the MYOB gaps are settings only MYOB can change (MI-39, MI-40, MI-51, MI-52) |
+| 7 | invoice-layout | No | Xero mostly | fail | No B1 for the job; the MYOB form can only be changed by MYOB |
+| 8 | payday-super | Time only (PR-M25) | Partly | fail | Only MYOB can fix Pay Super; clearing is free; moving super money needs an AFSL |
+| 9 | dispatch-workflow | Broad | Mostly | fail | 4 of 6 gaps filled by Shopify or rivals; what's left is one thread (MI-55, MI-56) or one person (SH-010) |
+| 10 | supplier-payment-runs | Tiny | Mostly | fail | Xero AU does ABA files and in-app bill payments; Batchly nets credits. The hold group (XI-004, XI-005) has no B1 |
+| 11 | bill-capture | Adjacent only | Closing | fail | Hubdoc free, Xero AI capture in AU beta, MYOB capture free on Lite/Pro |
+| — | shipping-charge-errors | — | — | out at Gate 2 | Revised in 3.2 to 4 people |
+
+### entry-review: one more search
+
+The rule is that unknown counts as fail unless one more search can settle it. So the XI-015 idea page was
+read (20 newest comments, 2026-10-28). Most comments ask for a general audit trail (payroll, leave, XPM,
+contacts). Only three are about changed or back-dated transactions: XI-015, M-19 and M-20. Several mention
+Sage or the CRA, which suggests non-AU users. Xero staff, 2025-12-08: a full audit trail "is not in our
+plans". That settles it: the group is real, but its evidence is one page and not proven Australian.
+
+| Id | Candidate | Date | Source | Excerpt (B2) | Link |
+|---|---|---|---|---|---|
+| M-19 | entry-review | 2025-02-17 | Xero Product Ideas (XI-015 thread) | "It's so frustrating when prior year data changes." | https://productideas.xero.com/forums/967133-reports-tax/suggestions/45050950-audit-trail-report |
+| M-20 | entry-review | 2024-05-22 | same | "You should be able to see the audit trail by account code, by posting date" | same |
+
+Ledger fix: XI-015's date was the thread's newest comment (2025-11-26); the quoted comment is
+2025-09-22. Corrected in `collect/xero-ideas.csv` and the ledger rebuilt.
+
+### Risks carried to Step 4 and later
+
+- **inventory-beside-xero:** two groups with different anchors. Xero-only sellers missing one or two
+  basics fit an 8-week v1 at A$50–150. Cin7 leavers pay more but need a full replacement and a
+  migration. Step 4 should pick the first group, or test whether the second fits hard limit 4.
+- **job-costing:** WorkflowMax by BlueRock now sells job costing with progress invoicing at A$22 a user.
+  That is Step 5's main threat. XI-035 is "Accepted" on Xero's board (no date). If Xero ships PO costs
+  to projects, the wedge narrows. Step 7.4 should check what "Accepted" means on the board.
+- **Gate 4 needs 3–5 survivors; only 2 pass Gate 3.** Ways to add one, cheapest first: Facebook to
+  rescue payroll-only-plan or ndis-service-dates (15–20 min each, [YOU]); the hipages lead-cost
+  override (2.3 decision); reserve segment E (hospitality) through 2.1.
