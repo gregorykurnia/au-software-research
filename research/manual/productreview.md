@@ -83,10 +83,10 @@ Most of these are about cancelling, billing and support waits, not product gaps.
 | id | date | state | role (stated) | excerpt | type | money / time signal |
 |---|---|---|---|---|---|---|
 | PR-M01 | 2026-10-27 | | | "Cancelling subscription for MYOB is a painful long process. Unable to do this online." | B2 | |
-| PR-M02 | 2026-10-21 | QLD | sole staff member | "they even told me why should I care if I've been overcharged its not my personal account" | **B1** | overcharged |
+| PR-M02 | 2026-10-21 | QLD | sole staff member | "they even told me why should I care if I've been overcharged its not my personal account" | B2 | overcharged |
 | PR-M03 | 2026-10-21 | QLD | | "Continual increase of annual fee and a right pain in the back side when wanting to cancel the subscription." | B2 | |
 | PR-M04 | 2026-10-14 | | | "I've often been hold for more than 1 hour 45 min. Written support requests are not replied to two weeks after submission." | **B1** | 1 h 45 min on hold |
-| PR-M05 | 2026-10-07 | | small business doing own books | "Every little thing I want to learn how to do on MYOB takes me days, yes I said DAYS not minutes or hours" | **B1** | days per task |
+| PR-M05 | 2026-10-07 | | small business doing own books | "Every little thing I want to learn how to do on MYOB takes me days, yes I said DAYS not minutes or hours" | B2 | days per task |
 | PR-M06 | 2026-10-07 | | same | "It is not a cheap membership, and I paid it thinking it would be handy and save me time with bookkeeping" | B2 | |
 | PR-M07 | 2026-10-06 | WA | | "we cancelled in Feb 2026. Despite this kept getting charged." | **B1** | months of fees after cancelling |
 | PR-M08 | 2026-10-02 | NSW | | "You need to keep calling them or maybe 10-15 times, every call around 15-30 mins wait." | **B1** | hours on hold |
@@ -137,7 +137,7 @@ app. Consumer reviews are left out.
 | PR-H03 | 2026-09-14 | | | "Hi pages works against you to trigger higher costs and longer terms then you want." | B2 | |
 | PR-H04 | 2026-09-03 | TAS | member since 2017 | "Last 3yrs, can't get leads, always waitlisted" | B2 | |
 | PR-H05 | 2026-09-03 | TAS | same | "now the we want to charge me $900 to cancel" | **B1** | A$900 exit fee |
-| PR-H06 | 2026-08-12 | | tradie | "you have to work all day just to get one job or two jobs a week approved." | **B1** | time per job |
+| PR-H06 | 2026-08-12 | | tradie | "you have to work all day just to get one job or two jobs a week approved." | B2 | time per job |
 | PR-H07 | 2026-07-08 | VIC | business owner, 2 years | "Last year average lead costs was 42 credits, and now its gone to 75 credits." | **B1** | lead cost up ~80% |
 | PR-H08 | 2026-07-08 | VIC | same | "lead price can go anywhere from 75 credits to even 120 credits, for the similar leads I paid half of that earlier." | **B1** | |
 | PR-H09 | 2026-07-02 | WA | former pest control business | "We used HiPages for years when we had our Pest Control Business… want to keep our almost $5K credit" | **B1** | ~A$5K prepaid credit |
@@ -149,7 +149,7 @@ app. Consumer reviews are left out.
 | PR-H15 | 2026-05-17 | VIC | tradie | "only get leads that are an hour and half away from." | B2 | |
 | PR-H16 | 2026-04-28 | QLD | tradie below the QBCC threshold | "they won't let you bid on works without a qbcc licence even if you are below the threshold" | B2 | |
 | PR-H17 | 2026-04-16 | QLD | | "what trades are paying to accept leads its anywhere from $100 to $200 per lead." | **B1** | A$100–200 per lead |
-| PR-H18 | 2026-02-26 | NSW | sole trader (mowing) | "I waste so much time to get a lead." | **B1** | time and money |
+| PR-H18 | 2026-02-26 | NSW | sole trader (mowing) | "I waste so much time to get a lead." | B2 | time and money |
 | PR-H19 | 2026-02-13 | QLD | trade company | "at sign up they said we would get 6-8 leads per week… In 6 months we received TWO jobs" | **B1** | 6-month contract |
 | PR-H20 | 2026-02-04 | NSW | tradie | "there is so much work that a customer can google someone local and approach them." | B2 | |
 | PR-H21 | 2026-01-29 | VIC | trade business | "the credit doesnt roll over month on month. More often than not the leads are from time-wasters" | **B1** | unused credit lost |

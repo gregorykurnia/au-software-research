@@ -88,7 +88,7 @@ Link = the idea page in the table above (comments have no separate link). Seg = 
 | MI-29 | 2025-02-04 | 11 | A | business issuing invoices | "I currently have to manually email each and every customer a receipt" | B2 | | emails receipts by hand |
 | MI-30 | 2025-08-07 | 11 | A | AccountRight user | "do not have the option to send receipts via email unless I print them to PDF and send them through my external email" | B2 | | print to PDF, email outside MYOB |
 | MI-31 | 2025-06-29 | 12 | A, B | building and construction | "It is a requirement for Building and construction business to send pdf invoices." | B2 | | |
-| MI-32 | 2025-08-07 | 12 | A | | "Angry clients, late payments. This is a disaster." | **B1** | late payments (amount not stated) | |
+| MI-32 | 2025-08-07 | 12 | A | | "Angry clients, late payments. This is a disaster." | B2 | late payments (amount not stated) | |
 | MI-33 | 2025-06-25 | 12 | A | | "My customers require a PDF attachment so that it can automatically uploaded into their payment system." | B2 | | ticks the box every time |
 | MI-34 | 2026-07-15 | 13 | A | MYOB partner (badge) | "it is very cluttered with messages that waste so much space. Despite dismissing these messages they just keep coming back" | B2 | | |
 | MI-35 | 2026-08-19 | 13 | A | 18-year customer | "If this isn't fixed urgently....it's a deal breaker for me - loyal customer for 18 years, I'll be switching." | B2 | churn threat | |

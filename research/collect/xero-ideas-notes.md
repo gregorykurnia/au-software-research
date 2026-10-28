@@ -1,0 +1,13 @@
+# Xero Product Ideas collection notes (2026-10-28)
+
+- Source: productideas.xero.com, top-by-votes lists for 8 boards (Invoices & quotes, Payroll & expenses, Projects & tracking, Practice tools, Contacts & documents, Reports & tax, Banking & chart of accounts, Purchase orders/bills/inventory). About 66 page loads in total.
+- Kept 44 items: segment A 28, B 8, D 8. Type: B2 40, B1 4 (XI-001, XI-015, XI-016, XI-033).
+- `date` = latest non-staff comment on the idea page, not the date of the excerpt comment. Original post dates were not shown in a usable way, so the notes column is not filled.
+- `role_as_stated` is blank everywhere: no excerpt states a role. Many comments mention "clients", "our firm" or "my team", which I did not turn into roles.
+- Segment B and D are loose matches: no excerpt names a trade or an online store. B = quotes, deposits, projects, job costing. D = inventory, price lists, landed cost (Xero has no ecommerce board).
+- Status counts come from the list pages. Many ideas show no status at all. "Not in pipeline" kept (Xero declined): XI-006 unapprove, XI-007 custom fields, XI-008 ageing on statements, XI-011 leave approver, XI-013 super reminder, XI-015 audit trail report, XI-020 batch payment split, XI-023 Hubdoc bank statement to CSV, XI-028 invoice attachments, XI-033 repeating invoice to project, XI-036 import to projects, XI-042 price lists.
+- S (Xero staff): the Customer statements idea is In development (staff updates Oct 2026, testers get early access to scheduling). The Customer Payment Performance idea started with the supplier side (UK Fair Payment Code), staff said Aug 2026. XI-024: staff said credit notes in batch payments are not roadmapped (via a commenter, Aug 2026).
+- S (vendors): developers posted ads in threads for interest on late invoices, scheduled reports, bank rules export, multi-org consolidation, low-stock alerts and bulk file export (e.g. RuleMover, Reportpost, ReorderPilot, BulkOps). Not in the CSV. They are evidence that people pay or will pay for these gaps, but they are seller content.
+- Recency risk: the super reminder thread (XI-013) says Payday Super (from July 2026) may make a quarterly reminder redundant.
+- Threads like Multiple Addresses (XI-026) have turned into general complaints about Xero. Treat the vote count as the signal, not the comments.
+- Problems: the Xero site search returned nothing usable. Only 4 B1 items were found because most comments state no cost or hours. Some excerpts are body text of the idea (poster is a buyer) rather than a comment. No page instructions or prompt injection seen.
