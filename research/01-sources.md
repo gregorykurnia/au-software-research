@@ -70,6 +70,21 @@ slowly; Facebook stays **by hand**.
 (text, link, date; any format), pushed to GitHub. Claude cuts excerpts to under 25 words and strips names
 and contact details when merging them into the ledger in 2.2.
 
+## Update 2026-10-28: trades widening (approved)
+
+Why: 97% of the ledger came from reviews and idea boards, which surface platform gaps that Xero and MYOB
+close. These sources look for trades jobs done **without software** and the money behind them. Segment B
+only. Approved by the owner 2026-10-28; Facebook dropped for now.
+
+| # | Source | Route | What to collect | Tag |
+|---|---|---|---|---|
+| T1 | **Seek job ads** for admin roles at AU trades businesses (e.g. "admin plumbing", "office manager electrical", "trades administrator") | Chrome on the Mac; public ads only; a few dozen pages | The manual tasks listed (chasing certificates, timesheets, job booking, quoting, compliance paperwork). Business-posted ads only, not recruiters | B1 when the business pays a person for the task (staff spend); note pay if shown |
+| T2 | **Etsy spreadsheet templates** for trades (job tracker, quote, invoice, compliance log) | Chrome on the Mac; listings and their reviews | Sales or review counts, price, AU relevance, buyer reviews naming the job | Sales of a template for the job = B1; review text = B2 |
+| T3 | **Search-result snippets that index Reddit** (AU trades and small-business threads) | Normal web search from the server, no visits to reddit.com | Snippets with "spreadsheet", "Excel", "manually", "how do you handle", "hipages" | B2 (B1 if time or money stated) |
+
+Output: `research/manual/seek.md`, `manual/etsy.md`, `collect/reddit-snippets.md`, then merged into the ledger
+by `tools/build_ledger.py` and recoded (2.3) for segment B.
+
 ## Notes for 2.2
 
 - Rough yield, low confidence: A 100+ items automated, B 60–80, D 40–60, C under 30 without Facebook.
