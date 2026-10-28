@@ -105,3 +105,37 @@ ServiceM8 Feature Wishes https://www.servicem8.com/updates/feature-wish-list ·
 Kick-Ass Tradies group (S, mentioned by its host) https://www.lifestyletradie.com.au/?p=766 ·
 Blocked (403 / refused): community.myob.com, myob.lithium.com, capterra.com.au, getapp.com.au,
 softwareadvice.com.au, g2.com, productreview.com.au, forums.whirlpool.net.au, reddit.com, community.shopify.com.
+
+### Brief for the Mac session (T1, T2), written 2026-10-28
+
+Open Claude Code on the Mac in this repo (pull first), with Claude in Chrome on. Say: "run T1 and T2 from
+`research/01-sources.md`". Go slowly, a few dozen pages per source, public pages only, no logins. Push when
+done. Excerpts under 25 words, no names or contact details.
+
+**T1 Seek → `research/manual/seek.md`.** Search, Australia-wide, last 30 days: "trades administrator",
+"admin plumbing", "office manager electrical", "admin assistant builder", "office administrator
+construction", "service coordinator HVAC", "scheduler plumbing". Keep ads posted by the business itself
+(skip recruiters and labour hire). Aim for 30–50 ads. One table:
+
+| id | date | url | business type, staff if stated | role | duties excerpt | type | pay | tools named |
+|---|---|---|---|---|---|---|---|---|
+| SK-01 | 2026-10-20 | https://www.seek.com.au/job/… | plumbing, 12 staff | trades admin | "chase compliance certificates, enter timesheets, …" | B1 | A$60–65k | ServiceM8, Xero |
+
+Every business-posted ad is B1 (the business pays a person to do these tasks). Add a line under the table
+with the count of ads seen vs kept, and the 5 most common duties.
+
+**T2 Etsy → `research/manual/etsy.md`.** Search: "tradie job tracker spreadsheet", "construction job
+costing spreadsheet", "plumber invoice template", "electrician quote template", "progress claim template",
+"SWMS template Australia", "tradie business spreadsheet". For the top 10–15 relevant listings record the
+listing; for listings with reviews, up to 5 reviews that name the job. Two tables:
+
+| id | url | title (short) | price | listing reviews | shop sales | AU relevance |
+|---|---|---|---|---|---|---|
+| ET-01 | https://www.etsy.com/au/listing/… | Tradie job tracker | A$24 | 38 | 2,100 | mentions GST, ABN |
+
+| id | date | listing id | buyer role if stated | excerpt | type |
+|---|---|---|---|---|---|
+| ET-R01 | 2026-05-02 | ET-01 | electrician | "finally stopped losing track of which jobs were invoiced" | B2 |
+
+A listing with reviews counts as B1 (people paid for a tool for this job); shop-level sales alone are
+weaker (note it). Review text is B2, or B1 if it states time or money.
