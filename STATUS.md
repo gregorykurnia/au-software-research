@@ -1,6 +1,6 @@
 # STATUS
 
-**Current step:** 3.3 done (2026-10-28): price anchors and Gate 3 in `research/03-money.md` §3.3. **2 pass Gate 3: inventory-beside-xero and job-costing**, both anchored at about A$50–150 a month per business. entry-review and eight others fail. Gate 4 needs 3–5 survivors, so the owner should decide whether to add a candidate (see §3.3 risks).
+**Current step:** 3.3 done (2026-10-28): price anchors and Gate 3 in `research/03-money.md` §3.3. **2 pass Gate 3: inventory-beside-xero and job-costing**, both anchored at about A$50–150 a month per business. entry-review and eight others fail. Gate 4 needs 3–5 survivors, so the owner approved a trades widening (2026-10-28, see decision log).
 **Next command:** `go` in a fresh chat. It runs, in order: (1) re-read the 40 hipages items with the job reframed as "get trade work without paying per lead" (enters at 2.5 only if it holds up); (2) Step 4 on inventory-beside-xero and job-costing; (3) trades widening from the new sources T1–T3 in `01-sources.md` (T1 Seek and T2 Etsy need the Mac on with Claude in Chrome; T3 runs from the server). New items then go through 2.3–Step 3 like everything else.
 
 ## Bar (from 00-bar.md)
