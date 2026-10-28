@@ -31,3 +31,4 @@ Not set yet (Step 8.4). Defaults: ≥100 targeted visitors per finalist; pass at
 | 2026-10-28 | Skip Reddit; Facebook later, targeted after 2.3 | A already well covered; Facebook used only to add an independent source to promising candidates (15–20 min each) | manual/reddit.md |
 | 2026-10-28 | Ledger built: 381 items, 8 sources, over the 150–300 aim | A came rich from Chrome sources; B and D needed the app stores. `research/tools/build_ledger.py` rebuilds it and checks excerpt length and dates | 02-complaints.csv |
 | 2026-10-28 | 5 vague B1 tags downgraded to B2 (MI-32, PR-M02, PR-M05, PR-H06, PR-H18) | No amount or time stated | 02-complaints.csv |
+| 2026-10-28 | Playbook: 2.3 tags themes unserved job vs vendor complaint; new 2.3b workaround hunt if <~8 unserved-job themes | Review sites and idea boards over-represent complaints about existing tools; tool-less jobs show up in forums and Facebook | CLAUDE.md |
