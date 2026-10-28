@@ -1,7 +1,7 @@
 # STATUS
 
-**Current step:** `go` run 2026-10-28. (1) hipages re-read: **not entered** (1 of 40 items points at winning work directly; `research/02-hipages-reread.md`). (2) Step 4 first pass: **both inventory-beside-xero and job-costing pass every limit**, with narrow v1s; Gate 4 waits (2 of 3–5) (`research/04-filter.md`). (3) Trades widening: T3 Reddit snippets in progress; T1 Seek and T2 Etsy need the Mac (brief at the end of `01-sources.md`).
-**Next command:** see the end of this run.
+**Current step:** `go` run 2026-10-28. (1) hipages re-read: **not entered** (1 of 40 items points at winning work directly; `research/02-hipages-reread.md`). (2) Step 4 first pass: **both inventory-beside-xero and job-costing pass every limit**, with narrow v1s; Gate 4 waits (2 of 3–5) (`research/04-filter.md`). (3) Trades widening: **T3 is a dead route**: 30 searches returned no Reddit thread text, so 0 items (`collect/reddit-snippets-notes.md`). T1 Seek and T2 Etsy are waiting on the Mac (brief at the end of `01-sources.md`).
+**Next command:** on the Mac (Chrome on): `run T1 and T2 from research/01-sources.md`, then push. Then here: `go`, which parses `manual/seek.md` and `manual/etsy.md` into the ledger and recodes segment B (2.3), then runs 2.4 to Step 4 on anything new.
 
 ## Bar (from 00-bar.md)
 A$2,500/month revenue ex-GST · 25–45 customers at A$50–100 · ≤5% of reachable buyers · income within 12 months (by ~2027-10).
@@ -76,3 +76,4 @@ Not set yet (Step 8.4). Defaults: ≥100 targeted visitors per finalist; pass at
 | 2026-10-28 | Step 4: inventory-beside-xero and job-costing pass all limits; ranked 1 and 2 | Both pass only with a narrow v1. Xero App Store listing needs Plus (A$245/mo); Projects API writes tasks and time only, no costs | 04-filter.md |
 | 2026-10-28 | 4.3 registration held until the widening is through Step 3 | Gate 4 needs 3–5; registering two now would be redone | 04-filter.md |
 | 2026-10-28 | inventory v1 shouldn't be kits alone | Xero is testing bundles (staff 2025-06-06; 167-vote idea Under review) | 04-filter.md src 6 |
+| 2026-10-28 | T3 (Reddit via search snippets) dropped: 0 items | The search tool returns no Reddit thread text, only vendor pages and paraphrased summaries. Chrome also refuses reddit.com (2026-10-27), so Reddit is by hand or not at all | collect/reddit-snippets-notes.md |
