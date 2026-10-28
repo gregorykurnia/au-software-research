@@ -1,7 +1,7 @@
 # STATUS
 
-**Current step:** 3.3 done (2026-10-28): price anchors and Gate 3 in `research/03-money.md` §3.3. **2 pass Gate 3: inventory-beside-xero and job-costing**, both anchored at about A$50–150 a month per business. entry-review and eight others fail. Gate 4 needs 3–5 survivors, so the owner approved a trades widening (2026-10-28, see decision log).
-**Next command:** `go` in a fresh chat. It runs, in order: (1) re-read the 40 hipages items with the job reframed as "get trade work without paying per lead" (enters at 2.5 only if it holds up); (2) Step 4 on inventory-beside-xero and job-costing; (3) trades widening from the new sources T1–T3 in `01-sources.md` (T1 Seek and T2 Etsy need the Mac on with Claude in Chrome; T3 runs from the server). New items then go through 2.3–Step 3 like everything else.
+**Current step:** `go` run 2026-10-28. (1) hipages re-read: **not entered** (1 of 40 items points at winning work directly; `research/02-hipages-reread.md`). (2) Step 4 first pass: **both inventory-beside-xero and job-costing pass every limit**, with narrow v1s; Gate 4 waits (2 of 3–5) (`research/04-filter.md`). (3) Trades widening: T3 Reddit snippets in progress; T1 Seek and T2 Etsy need the Mac (brief at the end of `01-sources.md`).
+**Next command:** see the end of this run.
 
 ## Bar (from 00-bar.md)
 A$2,500/month revenue ex-GST · 25–45 customers at A$50–100 · ≤5% of reachable buyers · income within 12 months (by ~2027-10).
@@ -10,11 +10,11 @@ A$2,500/month revenue ex-GST · 25–45 customers at A$50–100 · ≤5% of reac
 
 | Slug | Problem | G2 | G3 | G4 | G5 | G6 | G7 | G8 | Status |
 |---|---|---|---|---|---|---|---|---|---|
-| inventory-beside-xero | Stock control Xero lacks; Cin7 Core keeps rising | pass | pass | | | | | | in (Gate 3 pass; anchor A$50–150/mo) |
+| inventory-beside-xero | Stock control Xero lacks; Cin7 Core keeps rising | pass | pass | pass | | | | | in (Step 4 rank 1; v1 = price levels plus kits or receiving, for Xero-only sellers) |
 | shipping-charge-errors | Wrong shipping charges go unchecked for months | fail (revised 3.2: 4 people, two jobs) | | | | | | | out; SmartCompany quotes could reopen the carrier-bill half |
 | payroll-in-ledger | Pay-run setup and manual payslip fixes in Xero/MYOB | pass | fail | | | | | | out (only the platform can fix it) |
 | getting-paid | Statements, ageing, interest and receipts sent by hand | pass | fail | | | | | | out (free/bundled solves it) |
-| job-costing | Job profit and progress claims kept in spreadsheets | pass | pass | | | | | | in (Gate 3 pass; anchor A$50–150/mo; WorkflowMax A$22/user is the threat) |
+| job-costing | Job profit and progress claims kept in spreadsheets | pass | pass | pass | | | | | in (Step 4 rank 2; own job ledger, Projects API can't take costs; WorkflowMax A$22/user is the threat) |
 | records-after-exit | Keeping 5–7 years of books after selling or closing | pass | fail | | | | | | out (A$2.50–7 bundled options; one-off) |
 | entry-review | Finding other people's back-dated or uncoded entries | pass | fail | | | | | | out (group rests on one thread per platform) |
 | invoice-layout | Invoices not in the form the customer needs | pass | fail | | | | | | out (no B1) |
@@ -72,3 +72,7 @@ Not set yet (Step 8.4). Defaults: ≥100 targeted visitors per finalist; pass at
 | 2026-10-28 | Anchors: A$50–150/mo for both passes; inventory aimed at Xero-only sellers missing basics, not Cin7 leavers | Cin7 leavers pay more but need a full replacement, which isn't an 8-week v1 | XA-023–026, M-01, M-09, XI-033 |
 | 2026-10-28 | Trades widening approved: Seek job ads, Etsy templates, Reddit via search snippets (T1–T3); Facebook dropped for now | 97% of the ledger came from reviews and idea boards, which surface platform gaps; these look for tool-less jobs and the money behind them | 01-sources.md update |
 | 2026-10-28 | Plan for `go`: hipages re-read, then Step 4 on the two passes, then T1–T3 collection | Gate 4 needs 3–5 survivors and only 2 pass Gate 3; trades holds both strongest signals (job-costing, hipages spend) | 03-money.md §3.3 |
+| 2026-10-28 | hipages reframed as "win work without paying per lead": not entered at 2.5 | Broad reading (lead spend) is the V-LEADS vendor complaint again; narrow reading has 1 person (PR-H20). Free Google profile and A$5–60 alternatives exist; new tradie-marketing sites already crowd it. Reopens if T3 finds 5+ trades describing direct work | 02-hipages-reread.md |
+| 2026-10-28 | Step 4: inventory-beside-xero and job-costing pass all limits; ranked 1 and 2 | Both pass only with a narrow v1. Xero App Store listing needs Plus (A$245/mo); Projects API writes tasks and time only, no costs | 04-filter.md |
+| 2026-10-28 | 4.3 registration held until the widening is through Step 3 | Gate 4 needs 3–5; registering two now would be redone | 04-filter.md |
+| 2026-10-28 | inventory v1 shouldn't be kits alone | Xero is testing bundles (staff 2025-06-06; 167-vote idea Under review) | 04-filter.md src 6 |
