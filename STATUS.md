@@ -1,7 +1,7 @@
 # STATUS
 
-**Current step:** 2.4–2.5 done (2026-10-28): `research/02-candidates.md` has 19 problem candidates; **Gate 2: 12 pass, 7 fail.** No seeds (2.5). Next: Step 3, follow the money for the 12 passes (Opus, high effort).
-**Next command:** `next`
+**Current step:** 3.1 done (2026-10-28): `research/03-money.md` has money signals for the 12 Gate 2 passes. Exact-job B1 money: inventory-beside-xero, getting-paid, records-after-exit; broad: job-costing, dispatch-workflow; adjacent only: payroll-in-ledger, entry-review, bill-capture, supplier-payment-runs (tiny); none: invoice-layout, payday-super; barely: shipping-charge-errors. Gate 3 waits for 3.2 (search against) and 3.3 (price anchor).
+**Next command:** `next` (runs 3.2)
 
 ## Bar (from 00-bar.md)
 A$2,500/month revenue ex-GST · 25–45 customers at A$50–100 · ≤5% of reachable buyers · income within 12 months (by ~2027-10).
@@ -58,3 +58,6 @@ Not set yet (Step 8.4). Defaults: ≥100 targeted visitors per finalist; pass at
 | 2026-10-28 | Gate 2 counts people, not excerpts; ≤50% from one thread or review listing | One review cut into several excerpts, or one reviewer on two sites (SH-011 = TP-018), is one person | tools/candidates.py |
 | 2026-10-28 | Gate 2: 12 pass, 7 fail; 2.5 had no seeds | Counts in `tools/candidates.py`. Only inventory-beside-xero and shipping-charge-errors have 3+ B1 | 02-candidates.md |
 | 2026-10-28 | payroll-only-plan and ndis-service-dates out for now; Facebook could add a second source | Matches the 2026-10-28 plan to use Facebook only for promising candidates; both have known blockers (Payroller exists; segment C dropped) | PR-X47, PR-X23; MI-71–74, PR-X44 |
+| 2026-10-28 | 3.1: four parallel research agents, one per three candidates; four claims spot-checked on the Xero App Store | Web-heavy step; full tables kept in `collect/money-3.1-group-*.md` | 03-money.md |
+| 2026-10-28 | App-store review counts count as B1, graded exact / adjacent / none for this job | Playbook: reviews from paying users of a tool for this job are B1; spend on the platform or a neighbouring tool doesn't prove this job | M-01–M-17 |
+| 2026-10-28 | shipping-charge-errors flagged: Sendle closed 2026-01-11, so PR-D04 is stale and only 4 people remain | Recency check; 3.2 confirms or drops it | PR-D04, SH-001, SH-011, SH-034, TP-015 |
