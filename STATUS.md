@@ -1,6 +1,6 @@
 # STATUS
 
-**Current step:** 2.2 done (2026-10-28): `research/02-complaints.csv` has 381 buyer items (B1 111, B2 270) from 8 sources; A 213, B 89, D 85. Next: 2.3 code it into themes.
+**Current step:** 2.3 done (2026-10-28): `research/02-themes.md` codes all 381 items into 24 themes: 15 unserved jobs, 8 vendor complaints, 1 market signal. 2.3b not needed (15 job themes ≥ ~8). Next: 2.4 turn themes into 10–20 problem candidates (Opus, high effort).
 **Next command:** `next`
 
 ## Bar (from 00-bar.md)
@@ -32,3 +32,7 @@ Not set yet (Step 8.4). Defaults: ≥100 targeted visitors per finalist; pass at
 | 2026-10-28 | Ledger built: 381 items, 8 sources, over the 150–300 aim | A came rich from Chrome sources; B and D needed the app stores. `research/tools/build_ledger.py` rebuilds it and checks excerpt length and dates | 02-complaints.csv |
 | 2026-10-28 | 5 vague B1 tags downgraded to B2 (MI-32, PR-M02, PR-M05, PR-H06, PR-H18) | No amount or time stated | 02-complaints.csv |
 | 2026-10-28 | Playbook: 2.3 tags themes unserved job vs vendor complaint; new 2.3b workaround hunt if <~8 unserved-job themes | Review sites and idea boards over-represent complaints about existing tools; tool-less jobs show up in forums and Facebook | CLAUDE.md |
+| 2026-10-28 | 2.3 done: 24 themes; 2.3b workaround hunt skipped | 15 unserved-job themes, above the ~8 trigger | 02-themes.md, 02-coding.csv |
+| 2026-10-28 | Vendor complaints not carried to 2.4 except two named groups: Xero payroll-only users, Cin7 Core users facing price rises | Playbook rule: only a named group wanting a narrower, cheaper alternative | PR-X47, PR-X48, PR-X09, PR-X23; XA-020–027 |
+| 2026-10-28 | hipages lead costs (40 items, 19 B1) not carried | Trades want cheaper leads, not narrower software; fix is a two-sided marketplace. Owner may override | PR-H17, AP-009 |
+| 2026-10-28 | J-RECON treated as mostly vendor complaint | 16 of 22 items also vendor-coded (MYOB AI auto-match, sync bugs) | MI-57, XA-030 |
